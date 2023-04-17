@@ -90,4 +90,6 @@
      For this task I use queue for reall example - send mails . I define service for 
      send mails( it very simple and contains only one method :) but in reall project this
      service will be another, it only demonstration how I will build architecture ). Then I
-     use Laravel mails to send emails 
+     use Laravel mails to send emails .
+     Don't forgot to change in env file variable QUEUE_CONNECTION from sync to database.
+     In .env.example in repo it allready exists :)
